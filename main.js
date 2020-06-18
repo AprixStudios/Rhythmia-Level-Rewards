@@ -5,12 +5,8 @@ const keepAlive = require(`./server.js`);
 
 
 setInterval(() => {
-  http.get('http://lime-abrasive-throne.glitch.me/');
-}, 60000);
-
-setInterval(() => {
-  http.get('http://aprixkeepalives.glitch.me/');
-}, 60000);
+  http.get('http://rhythmia-level-rewards--aprixia.repl.co/');
+}, 10000);
 
 client.on('message', message => {
   if (message.author.id === '159985870458322944') {
