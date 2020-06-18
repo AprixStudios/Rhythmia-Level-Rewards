@@ -36,6 +36,6 @@ client.on('message', message => {
 
 
 client.once('ready', ready => {console.log('hehe');});
-
+// This is a test
 keepAlive();
 client.login(process.env.TOKEN);
