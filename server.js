@@ -1,7 +1,7 @@
 const express = require('express');
 const server = express();
 server.all('/', (req, res) => {
-  res.send(`Rhythmia Level Rewards Up!`);
+  res.send(`NA Level Rewards Up!`);
 });
 
 
